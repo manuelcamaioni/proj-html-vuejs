@@ -138,7 +138,7 @@ div.courses-list {
 
             h5 {
                 font-size: .8rem;
-                margin: 0;
+                margin-bottom: .4rem;
                 color: $primaryColor;
             }
 
