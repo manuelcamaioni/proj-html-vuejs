@@ -52,12 +52,13 @@ export default {
 
 .brands-container {
     width: calc(100% / 7 - 1rem);
-    height: 60px;
+    height: 50px;
 
     img {
         width: 100%;
         height: 100%;
         object-fit: contain;
+        opacity: 0.5;
     }
 }
 </style>

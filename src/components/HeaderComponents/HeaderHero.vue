@@ -8,18 +8,19 @@
                             <h1 class="fs-2">
                                 Distant learning for further expansion
                             </h1>
-                            <p class="minor-text">
+                            <p class="minor-text grey-text">
                                 Learning is a life-long journey that in fact we never find that terminate stop. Stop
                                 searching,
                                 enjoy the process.
                             </p>
                         </hgroup>
-                        <div class="download-btn">
+                        <div class="download-btn my-2">
                             <button class="btn custom_btn">
-                                <i class="fa-solid fa-download fa-sm"></i> <span>Download free guide</span>
+                                <i class="fa-solid fa-download fa-sm"></i> <span class="xs-text fw-bold">Download free
+                                    guide</span>
                             </button>
                         </div>
-                        <span class="minor-text question-box">Have Questions? <a href="#">Get Free Samples <i
+                        <span class="minor-text grey-text question-box">Have Questions? <a href="#">Get Free Samples <i
                                     class="fa-solid fa-arrow-right"></i></a>
                         </span>
                     </div>
@@ -46,6 +47,7 @@ export default {
 div.hero {
     h1 {
         color: $primaryColor;
+        font-weight: bold;
     }
 
     div.col-5,
@@ -58,8 +60,11 @@ div.hero {
         color: white;
     }
 
-    .profile-pic-container {
+    div.profile-pic-container {
+        padding: 2.5rem;
+
         img {
+            object-fit: contain;
             width: 100%;
             border-radius: 50%;
 
