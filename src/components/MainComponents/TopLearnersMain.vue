@@ -12,6 +12,7 @@
                     <div class="col"></div>
                 </div>
             </div>
+            <div class="certification-box"></div>
         </div>
     </article>
 </template>
