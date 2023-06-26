@@ -2,7 +2,7 @@
     <nav>
         <div class="my-container h-100 d-flex align-items-center justify-content-between">
             <div class="logoApp">
-                <img src="../assets/img/dark-logo.png" alt="">
+                <img src="../../assets/img/dark-logo.png" alt="">
             </div>
             <div class="nav-links">
                 <ul class="d-flex">
