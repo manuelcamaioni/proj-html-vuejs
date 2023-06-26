@@ -9,3 +9,21 @@ ul {
     padding: 0;
     margin: 0;
 }
+
+article.hero {
+    border: 1px solid orange;
+}
+
+.col,
+.row,
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+hgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

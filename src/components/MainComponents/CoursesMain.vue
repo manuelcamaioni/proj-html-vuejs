@@ -26,25 +26,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-article.hero {
+div.courses-list {
+    width: 100%;
 
-    border: 1px solid orange;
-
-    hgroup {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    div.courses-list {
-        width: 100%;
-
-        li.course {
-            width: calc(100% / 2);
-            height: 60px;
-            border: 1px solid red;
-        }
+    li.course {
+        width: calc(100% / 2);
+        height: 60px;
+        border: 1px solid red;
     }
 }
 </style>
