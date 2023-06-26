@@ -1,3 +1,5 @@
+@use "./variables.scss" as *;
+
 * {
     font-family: "Cabin", sans-serif;
 }
@@ -42,4 +44,16 @@ hgroup {
 
 .xs-text {
     font-size: 0.7rem;
+}
+
+hgroup {
+    p.sup-title {
+        color: #8d91ad;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        margin: 0;
+    }
+    h1 {
+        color: $primaryColor;
+    }
 }

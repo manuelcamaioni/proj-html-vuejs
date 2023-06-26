@@ -1,6 +1,6 @@
 <template>
     <div class="brands-list">
-        <div class="my-container">
+        <div class="my-container py-2">
             <ul class="d-flex m-0 p-0 justify-content-between">
                 <li v-for="brand in brands" class="brands-container">
                     <img :src="getImagePath(brand.path)" :alt="brand.path">
