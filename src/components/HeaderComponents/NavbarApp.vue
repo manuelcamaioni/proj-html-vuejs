@@ -22,6 +22,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use "../../styles/variables.scss" as *;
+
 nav {
     border: 1px solid black;
     height: 60px;

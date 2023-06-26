@@ -48,6 +48,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use "../../styles/variables.scss" as *;
+
 .brands-container {
     width: calc(100% / 7 - 1rem);
     height: 60px;

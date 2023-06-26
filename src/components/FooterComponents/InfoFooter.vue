@@ -22,4 +22,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use "../../styles/variables.scss" as *;
+</style>

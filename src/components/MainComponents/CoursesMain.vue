@@ -26,6 +26,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use "../../styles/variables.scss" as *;
+
+article.hero {
+    background-color: $secondaryHeroColor;
+}
+
 div.courses-list {
     width: 100%;
 

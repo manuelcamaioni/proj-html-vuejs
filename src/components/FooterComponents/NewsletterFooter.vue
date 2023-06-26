@@ -18,6 +18,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use "../../styles/variables.scss" as *;
+
 .input-element {
     border-radius: 0.375rem;
     overflow: hidden;
