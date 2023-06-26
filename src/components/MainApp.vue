@@ -3,6 +3,7 @@
         <CoursesMain />
         <TutoringMain />
         <TrailerMain />
+        <TopLearners />
     </main>
 </template>
 
@@ -10,9 +11,10 @@
 import CoursesMain from "./MainComponents/CoursesMain.vue";
 import TutoringMain from "./MainComponents/TutoringMain.vue";
 import TrailerMain from "./MainComponents/TrailerMain.vue";
+import TopLearners from "./MainComponents/TopLearnersMain.vue"
 export default {
     components: {
-        CoursesMain, TutoringMain, TrailerMain
+        CoursesMain, TutoringMain, TrailerMain, TopLearners
     }
 }
 </script>
