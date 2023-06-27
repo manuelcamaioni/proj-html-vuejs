@@ -62,7 +62,6 @@ div.hero {
         span {
             font-size: .6rem;
             font-weight: bolder;
-            ;
         }
     }
 

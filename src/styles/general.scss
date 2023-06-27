@@ -1,7 +1,11 @@
 @use "./variables.scss" as *;
 
 * {
-    font-family: "Cabin", sans-serif;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-family: "Gilroy-Heavy", sans-serif;
+    font-family: "Gilroy-Light", sans-serif;
+    font-family: "Gilroy-Medium", sans-serif;
+    font-family: "Gilroy-Regular", sans-serif;
 }
 
 .my-container {
@@ -27,11 +31,25 @@ ul {
     margin: 0;
 }
 
+.highlight {
+    color: $primaryHighlight;
+}
+
 hgroup {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    p.sup-title {
+        color: #8d91ad;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+        margin: 0;
+    }
+    h1,
+    h2 {
+        color: $primaryColor;
+    }
 }
 
 .grey-text {
@@ -44,16 +62,4 @@ hgroup {
 
 .xs-text {
     font-size: 0.7rem;
-}
-
-hgroup {
-    p.sup-title {
-        color: #8d91ad;
-        text-transform: uppercase;
-        font-size: 0.7rem;
-        margin: 0;
-    }
-    h1 {
-        color: $primaryColor;
-    }
 }
