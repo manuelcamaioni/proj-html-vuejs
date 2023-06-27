@@ -17,7 +17,7 @@
                             <p class="xs-text">Learners are given the right to arrange and customize their study
                                 schedule and timetable
                                 based on preferences.</p>
-                            <a href="#" class="fw-bold">Start here <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="#" class="fw-bold">Start here &#8594</a>
                         </div>
                     </div>
                     <div class="col">
@@ -29,7 +29,7 @@
                             <p class="xs-text">You can store online lessons via online cloud or download to your
                                 device and revise lessons
                                 on the way.</p>
-                            <a href="#" class="fw-bold">Get Free quote <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="#" class="fw-bold">Get Free quote &#8594</a>
                         </div>
                     </div>
                     <div class="col">
@@ -41,7 +41,7 @@
                             <p class="xs-text">We provide study materials with various formats: video, audio,
                                 slides, doc, prints, books and
                                 applications.</p>
-                            <a href="#" class="fw-bold">Start now <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="#" class="fw-bold">Start now &#8594</a>
                         </div>
                     </div>
                 </div>

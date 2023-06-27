@@ -20,8 +20,8 @@
                                     guide</span>
                             </button>
                         </div>
-                        <span class="minor-text grey-text question-box">Have Questions? <a href="#">Get Free Samples <i
-                                    class="fa-solid fa-arrow-right"></i></a>
+                        <span class="minor-text grey-text question-box">Have Questions? <a href="#">Get Free Samples
+                                &#8594</a>
                         </span>
                     </div>
                     <div class="col-7 profile-pic-container">

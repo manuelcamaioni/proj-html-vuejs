@@ -27,7 +27,7 @@
             </div>
             <div class="d-flex justify-content-center">
                 <button class="btn custom_btn">
-                    <span class="fw-bold">View all courses <i class="fa-solid fa-arrow-right"></i></span>
+                    <span class="fw-bold">View all courses &#8594</span>
                 </button>
             </div>
         </div>
