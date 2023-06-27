@@ -1,7 +1,7 @@
 <template>
     <article class="hero ">
         <div class="my-container py-3">
-            <hgroup>
+            <hgroup class="mb-3">
                 <p class="sup-title">Stimulated to learn?</p>
                 <h1 class="fs-3 mb-2">Featured Online Courses</h1>
             </hgroup>
