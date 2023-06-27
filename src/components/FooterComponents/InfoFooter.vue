@@ -1,7 +1,7 @@
 <template>
     <section class="hero">
         <div class="my-container">
-            <div class="footer-info d-flex py-2">
+            <div class="footer-info d-flex">
                 <div class="address-container">
                     <h4>Address</h4>
                     <ul>
@@ -56,6 +56,10 @@ export default {
 
 <style lang="scss" scoped>
 @use "../../styles/variables.scss" as *;
+
+.footer-info {
+    padding-top: 2rem;
+}
 
 .explore-container,
 .info-container {

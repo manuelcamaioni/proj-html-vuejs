@@ -1,6 +1,6 @@
 <template>
     <article class="hero">
-        <div class="my-container py-3">
+        <div class="my-container">
             <hgroup class="mb-4">
                 <p class="sup-title">Great Words about MaxCoach</p>
                 <h2 class="fs-3 fw-bold">Our <span class="highlight fw-light">top learners'</span> verbatim</h2>
@@ -102,10 +102,14 @@ article.hero {
 
     background-color: $footerColor;
 
+    .my-container {
+        padding: 2.5rem 0;
+    }
+
     .card {
         margin: 0 auto;
         --bs-card-border-color: none;
-        padding: .6rem .8rem;
+        padding: 2rem;
 
         h5 {
             font-size: .8rem;
