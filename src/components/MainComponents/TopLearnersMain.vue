@@ -100,10 +100,12 @@ export default {
 
 article.hero {
 
+    background-color: $footerColor;
 
     .card {
         margin: 0 auto;
         --bs-card-border-color: none;
+        padding: .6rem .8rem;
 
         h5 {
             font-size: .8rem;
