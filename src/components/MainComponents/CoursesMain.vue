@@ -1,6 +1,6 @@
 <template>
     <article class="hero ">
-        <div class="my-container h-100 py-3">
+        <div class="my-container py-3">
             <hgroup>
                 <p class="sup-title">Stimulated to learn?</p>
                 <h1 class="fs-3 mb-2">Featured Online Courses</h1>
@@ -23,8 +23,12 @@
                             </div>
                         </div>
                     </li>
-
                 </ul>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn custom_btn">
+                    <span class="fw-bold">View all courses <i class="fa-solid fa-arrow-right"></i></span>
+                </button>
             </div>
         </div>
     </article>
@@ -98,8 +102,17 @@ export default {
 
 article.hero {
     background-color: $secondaryHeroColor;
+}
 
+.custom_btn {
+    background-color: $primaryHighlight;
+    color: white;
+    margin: 1rem 0;
 
+    span {
+        font-size: .6rem;
+        font-weight: bolder;
+    }
 
 }
 

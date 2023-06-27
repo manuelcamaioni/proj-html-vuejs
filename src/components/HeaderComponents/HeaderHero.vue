@@ -16,7 +16,7 @@
                         </hgroup>
                         <div class="download-btn my-2">
                             <button class="btn custom_btn">
-                                <i class="fa-solid fa-download fa-sm"></i> <span class="xs-text fw-bold">Download free
+                                <i class="fa-solid fa-download fa-sm"></i> <span>Download free
                                     guide</span>
                             </button>
                         </div>
@@ -58,6 +58,12 @@ div.hero {
     .custom_btn {
         background-color: $primaryHighlight;
         color: white;
+
+        span {
+            font-size: .6rem;
+            font-weight: bolder;
+            ;
+        }
     }
 
     div.profile-pic-container {
