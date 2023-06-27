@@ -5,11 +5,11 @@
                 <p class="sup-title">Great Words about MaxCoach</p>
                 <h2 class="fs-3 fw-bold">Our <span class="highlight fw-light">top learners'</span> verbatim</h2>
             </hgroup>
-            <div class="carousel d-flex position-relative">
+            <div class="carousel d-flex position-relative mb-3">
                 <button class="btn btn-left position-absolute" @click="prevButton"><i
                         class="fa-solid fa-chevron-left"></i></button>
                 <div class="card w-50" v-for="(card, index) in cards" :class="activeIndex === index ? '' : 'd-none'">
-                    <div class="about-box">
+                    <div class="about-box mb-">
                         <h5>{{ card.title }}</h5>
                         <p>{{ card.info }}</p>
                     </div>
@@ -23,12 +23,19 @@
                 </div>
                 <button class="btn btn-right position-absolute" @click="nextButton"><i
                         class="fa-solid fa-chevron-right"></i></button>
+
             </div>
-            <div class="dots-miniature d-flex justify-content-center">
+            <div class="dots-miniature d-flex justify-content-center mb-5">
                 <i v-for="(dot, index) in cards" class="fa-solid fa-circle"
                     :class="activeIndex === index ? 'opacity-100' : ''"></i>
             </div>
-            <div class="certification-box"></div>
+            <div class="certification-box text-center">
+                <h5 class="fs-6 mb-0 fw-bold">Start Today for getting <span class="highlight fw-light">Online
+                        Certification</span>
+                </h5>
+                <h4 class="fs-5 fw-bold mb-4">You can be your own guiding star with out help!</h4>
+                <button class="btn fw-bold">Get started now</button>
+            </div>
         </div>
     </article>
 </template>
@@ -93,19 +100,22 @@ export default {
 
 article.hero {
 
+
     .card {
         margin: 0 auto;
         --bs-card-border-color: none;
 
         h5 {
-            font-size: .9rem;
+            font-size: .8rem;
             color: $primaryColor;
             font-weight: bold;
+
         }
 
         p {
             color: $secondaryTextColor;
             font-size: .65rem;
+            font-weight: bold;
         }
 
         .client-box {
@@ -130,7 +140,8 @@ article.hero {
         }
     }
 
-    button {
+    .btn-left,
+    .btn-right {
         background-color: transparent;
     }
 
@@ -152,6 +163,17 @@ article.hero {
             font-size: .3rem;
             margin: 0 .5rem;
             opacity: 0.5;
+        }
+    }
+
+    .certification-box {
+
+        color: $primaryColor;
+
+        .btn {
+            background-color: $primaryHighlight;
+            color: white;
+            font-size: .6rem;
         }
     }
 

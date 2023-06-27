@@ -27,7 +27,4 @@ export default {
 @import "bootstrap/scss/bootstrap";
 @import "./styles/general.scss";
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
-@import url('https://fonts.cdnfonts.com/css/gilroy-heavy');
-@import url('https://fonts.cdnfonts.com/css/gilroy-light');
-@import url('https://fonts.cdnfonts.com/css/gilroy-medium');
 </style>

@@ -20,6 +20,11 @@ ul {
     margin: 0;
 }
 
+button {
+    background-color: $primaryHighlight;
+    color: white;
+}
+
 .hero {
     border: 1px solid orange;
 }
