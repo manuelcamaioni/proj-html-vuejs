@@ -1,7 +1,7 @@
 <template>
     <section class="hero">
-        <div class="my-container">
-            <h1>Subscribe <span>Newsletter</span></h1>
+        <div class="my-container d-flex flex-column justify-content-center align-items-center py-5">
+            <h2>Subscribe <span class="highlight">Newsletter</span></h2>
             <p>Enter your email address to register to our newsletter subscription delivered on a regular basis!</p>
             <div class="input-element d-flex">
                 <input type="email" placeholder="Enter your email">
@@ -20,21 +20,42 @@ export default {
 <style lang="scss" scoped>
 @use "../../styles/variables.scss" as *;
 
+section.hero {
+    font-weight: bold;
+    color: $primaryColor;
+
+    h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: $secondaryTextColor;
+        text-align: center;
+        font-size: .7rem;
+    }
+}
+
 .input-element {
     border-radius: 0.375rem;
     overflow: hidden;
     background-color: black;
-    width: fit-content;
+    font-size: .7rem;
+    width: 50%;
+
 }
 
 input {
     border: none;
     border-radius: 0;
+    width: 70%;
 }
 
 button {
-    background-color: red;
+    background-color: $primaryHighlight;
     border-radius: 0;
-
+    color: white;
+    font-size: .7rem;
+    width: 30%;
 }
 </style>
