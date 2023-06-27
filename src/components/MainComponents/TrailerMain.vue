@@ -1,11 +1,17 @@
 <template>
     <article class="hero">
-        <div class="my-container h-100">
+        <div class="my-container d-flex">
             <div class="video-container">
-                Qui va il video
+                <img src="../../assets/img/home-2-popup-video-poster.jpg" alt="thumbnail's video">
             </div>
             <div class="info-box">
-                qui descrizione
+                <div class="desc-box">
+                    <span class="text-uppercase">Get started effrotlessly</span>
+                    <h2>Enjoy Our <span>Companionship</span></h2>
+                    <p>Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for some
+                        hidden hints of early-bird rewards as well.</p>
+                    <a href="#">Download free guide book &#8594</a>
+                </div>
             </div>
         </div>
     </article>
@@ -21,6 +27,15 @@ export default {
 @use "../../styles/variables.scss" as *;
 
 article.hero {
-    height: 400px;
+    .video-container {
+        width: 50%;
+        overflow: hidden;
+        border-radius: 0.3rem;
+
+        img {
+            width: 100%;
+        }
+
+    }
 }
 </style>

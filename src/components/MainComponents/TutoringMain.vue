@@ -60,7 +60,7 @@ export default {
 @use "../../styles/variables.scss" as *;
 
 article.hero {
-    height: 400px;
+
 
     h3 {
         color: $primaryColor;
