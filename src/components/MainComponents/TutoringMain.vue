@@ -1,9 +1,10 @@
 <template>
     <article class="hero">
-        <div class="my-container h-100">
-            <hgroup>
-                <p class="sup-title">MaxCoach available courses</p>
-                <h2 class="fs-3 fw-bold">Access <span class="highlight fw-light">Smart Tutoring</span> Program For Benefits.
+        <div class="my-container h-100 py-4">
+            <hgroup class="mb-3">
+                <p class="sup-title grey-text">MaxCoach available courses</p>
+                <h2 class="fs-5 fw-bold">Access <span class="highlight fw-light">Smart Tutoring</span> Program For
+                    Benefits.
                 </h2>
             </hgroup>
             <div class="container">
@@ -20,7 +21,7 @@
                             <a href="#" class="fw-bold">Start here &#8594</a>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col mx-3">
                         <div class="img-container">
                             <img src="../../assets/img/about-us-02-image-box-02.png" alt="">
                         </div>
@@ -60,12 +61,11 @@ export default {
 @use "../../styles/variables.scss" as *;
 
 article.hero {
-
-
     h3 {
         color: $primaryColor;
         font-size: 1rem;
-        font-weight: bolder;
+        font-weight: bold;
+
     }
 
     p,
@@ -76,6 +76,16 @@ article.hero {
 
     a {
         font-size: .55rem;
+    }
+
+    .img-container {
+        height: 80px;
+        margin-bottom: 1rem;
+    }
+
+    img {
+        height: 100%;
+        object-fit: contain;
     }
 
 }
