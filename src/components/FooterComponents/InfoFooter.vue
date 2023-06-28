@@ -78,9 +78,11 @@ h4 {
 li {
     font-size: .7rem;
 
+
     a {
         color: $secondaryTextColor;
         text-decoration: none;
+        transition: color .5s;
     }
 }
 
@@ -96,8 +98,6 @@ li {
     span {
         font-size: .6rem;
         color: #b1b1b1;
-
-
     }
 }
 
@@ -107,6 +107,11 @@ i.fa-brands {
 }
 
 i.fa-brands:hover {
+    color: $primaryHighlight;
+}
+
+.explore-container li a:hover,
+.info-container li a:hover {
     color: $primaryHighlight;
 }
 </style>
