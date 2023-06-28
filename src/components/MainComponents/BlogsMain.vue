@@ -81,6 +81,11 @@ article.hero {
     .card {
         --bs-card-border-radius: 0;
         --bs-card-border-color: 0;
+
+        .img-card {
+            overflow: hidden;
+        }
+
     }
 
     .col.card {
@@ -123,5 +128,15 @@ article.hero {
     }
 
 
+}
+
+
+.img-card img {
+    object-fit: cover;
+    transition: scale .5s ease-in-out;
+}
+
+.img-card:hover img {
+    scale: 1.1;
 }
 </style>

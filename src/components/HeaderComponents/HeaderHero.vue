@@ -16,8 +16,8 @@
                         </hgroup>
                         <div class="download-btn my-2">
                             <button class="btn custom_btn">
-                                <i class="fa-solid fa-download fa-sm"></i> <span>Download free
-                                    guide</span>
+                                <i class="fa-solid fa-download fa-sm"></i> Download free
+                                guide
                             </button>
                         </div>
                         <span class="minor-text grey-text question-box">Have Questions? <a href="#">Get Free Samples
@@ -55,16 +55,6 @@ div.hero {
         padding: 0;
     }
 
-    .custom_btn {
-        background-color: $primaryHighlight;
-        color: white;
-
-        span {
-            font-size: .6rem;
-            font-weight: bolder;
-        }
-    }
-
     div.profile-pic-container {
         padding: 2.5rem;
 
@@ -72,7 +62,6 @@ div.hero {
             object-fit: contain;
             width: 100%;
             border-radius: 50%;
-
         }
     }
 
@@ -85,4 +74,13 @@ div.hero {
         }
     }
 }
-</style>
+
+.custom_btn {
+    background-color: $primaryHighlight;
+    color: white;
+    font-size: .6rem;
+}
+
+.custom_btn:hover {
+    background-color: $primaryColor;
+}</style>

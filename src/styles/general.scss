@@ -20,11 +20,15 @@ ul {
     margin: 0;
 }
 
-button {
+button.btn {
     background-color: $primaryHighlight;
     color: white;
+    transition: background-color 0.5s;
 }
-
+button.btn:hover {
+    background-color: $primaryColor;
+    color: white;
+}
 .col,
 .row,
 .container {

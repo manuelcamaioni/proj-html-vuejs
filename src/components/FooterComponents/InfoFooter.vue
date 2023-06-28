@@ -100,4 +100,13 @@ li {
 
     }
 }
+
+i.fa-brands {
+    transition: color .5s;
+
+}
+
+i.fa-brands:hover {
+    color: $primaryHighlight;
+}
 </style>

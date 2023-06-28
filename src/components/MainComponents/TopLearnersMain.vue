@@ -34,7 +34,7 @@
                         Certification</span>
                 </h5>
                 <h4 class="fs-5 fw-bold mb-4">You can be your own guiding star with out help!</h4>
-                <button class="btn fw-bold">Get started now</button>
+                <button class="btn custom_btn fw-bold">Get started now</button>
             </div>
         </div>
     </article>
@@ -180,6 +180,10 @@ article.hero {
             background-color: $primaryHighlight;
             color: white;
             font-size: .6rem;
+        }
+
+        .custom_btn:hover {
+            background-color: $primaryColor;
         }
     }
 

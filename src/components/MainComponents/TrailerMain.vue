@@ -49,6 +49,7 @@ article.hero {
         img.thumbnail {
             width: 100%;
             border-radius: 0.3rem;
+            transition: scale .8s ease-in-out;
         }
 
     }
@@ -78,5 +79,9 @@ article.hero {
             font-size: .7rem;
         }
     }
+}
+
+img.thumbnail:hover {
+    scale: 1.1;
 }
 </style>
