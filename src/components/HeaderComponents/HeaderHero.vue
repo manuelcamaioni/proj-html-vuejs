@@ -45,6 +45,8 @@ export default {
 
 
 div.hero {
+    padding-top: 60px;
+
     h1 {
         color: $primaryColor;
         font-weight: bold;
@@ -79,8 +81,11 @@ div.hero {
     background-color: $primaryHighlight;
     color: white;
     font-size: .6rem;
+
 }
 
 .custom_btn:hover {
     background-color: $primaryColor;
-}</style>
+    color: white;
+}
+</style>

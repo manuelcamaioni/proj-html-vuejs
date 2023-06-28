@@ -1,9 +1,9 @@
 <template>
     <article class="hero ">
-        <div class="my-container py-3">
+        <div class="my-container py-5">
             <hgroup class="mb-3">
                 <p class="sup-title">Stimulated to learn?</p>
-                <h1 class="fs-3 mb-2">Featured Online Courses</h1>
+                <h1 class="fs-3 mb-2 fw-bold">Featured Online Courses</h1>
             </hgroup>
             <div class="courses-list">
                 <ul class="w-100 d-flex flex-wrap">
@@ -13,10 +13,14 @@
                         </div>
                         <div class="desc-box ps-1">
                             <h4>
-                                <span v-if="(typeof course.price === 'number')">&#36;</span>{{ course.price }}<span
-                                    v-if="(typeof course.price === 'number')" class="xs-text">.00</span>
+                                <span v-if="(typeof course.price === 'number')" class="fw-bold">&#36;</span>
+                                <span class="fw-bold">
+                                    {{ course.price
+                                    }}
+                                </span>
+                                <span v-if="(typeof course.price === 'number')" class="xs-text fw-bold">.00</span>
                             </h4>
-                            <h5>{{ course.type }}</h5>
+                            <h5 class="fw-bold">{{ course.type }}</h5>
                             <div class="other-info grey-text d-flex justify-content-evenly pe-4">
                                 <span><i class="fa-solid fa-file-lines me-1"></i>{{ course.lessons }} Lessons</span>
                                 <span><i class="fa-regular fa-user me-1"></i>{{ course.students }} Students</span>
@@ -27,7 +31,7 @@
             </div>
             <div class="d-flex justify-content-center">
                 <button class="btn custom_btn">
-                    <span class="fw-bold">View all courses &#8594</span>
+                    View all courses &#8594
                 </button>
             </div>
         </div>
@@ -108,12 +112,13 @@ article.hero {
     background-color: $primaryHighlight;
     color: white;
     margin: 1rem 0;
+    font-weight: bold;
+    font-size: .6rem;
+}
 
-    span {
-        font-size: .6rem;
-        font-weight: bolder;
-    }
-
+.custom_btn:hover {
+    background-color: $primaryColor;
+    color: white;
 }
 
 div.courses-list {

@@ -64,6 +64,11 @@ export default {
         height: 100%;
         object-fit: contain;
         opacity: 0.5;
+        transition: opacity 0.5s;
+    }
+
+    img:hover {
+        opacity: 1;
     }
 }
 </style>

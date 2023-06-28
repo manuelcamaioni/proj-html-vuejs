@@ -18,7 +18,7 @@
                             <p class="xs-text">Learners are given the right to arrange and customize their study
                                 schedule and timetable
                                 based on preferences.</p>
-                            <a href="#" class="fw-bold">Start here &#8594</a>
+                            <a href="#" class="fw-bold position-relative">Start here &#8594</a>
                         </div>
                     </div>
                     <div class="col mx-3">
@@ -30,7 +30,7 @@
                             <p class="xs-text">You can store online lessons via online cloud or download to your
                                 device and revise lessons
                                 on the way.</p>
-                            <a href="#" class="fw-bold">Get Free quote &#8594</a>
+                            <a href="#" class="fw-bold position-relative">Get Free quote &#8594</a>
                         </div>
                     </div>
                     <div class="col">
@@ -42,7 +42,7 @@
                             <p class="xs-text">We provide study materials with various formats: video, audio,
                                 slides, doc, prints, books and
                                 applications.</p>
-                            <a href="#" class="fw-bold">Start now &#8594</a>
+                            <a href="#" class="fw-bold position-relative">Start now &#8594</a>
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,29 @@ article.hero {
     }
 
     a {
-        font-size: .55rem;
+        font-size: .6rem;
+        transition: all .5s;
+        display: inline-block;
+    }
+
+    a::after {
+        content: '';
+        background-color: $primaryHighlight;
+        position: absolute;
+        top: 99%;
+        right: 100%;
+        left: 0;
+        bottom: 0;
+        transition: all .5s ease-in-out;
+
+    }
+
+    a:hover::after {
+        right: 0%;
+    }
+
+    a:hover {
+        color: $primaryHighlight;
     }
 
     .img-container {

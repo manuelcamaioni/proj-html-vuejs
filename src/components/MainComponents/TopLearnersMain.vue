@@ -8,7 +8,8 @@
             <div class="carousel d-flex position-relative mb-3">
                 <button class="btn btn-left position-absolute" @click="prevButton"><i
                         class="fa-solid fa-chevron-left"></i></button>
-                <div class="card w-50" v-for="(card, index) in cards" :class="activeIndex === index ? '' : 'd-none'">
+                <div class="card w-50 d-flex flex-column justify-content-around" v-for="(card, index) in cards"
+                    :class="activeIndex === index ? '' : 'd-none'">
                     <div class="about-box mb-">
                         <h5>{{ card.title }}</h5>
                         <p>{{ card.info }}</p>
@@ -110,6 +111,7 @@ article.hero {
         margin: 0 auto;
         --bs-card-border-color: none;
         padding: 2rem;
+        height: 300px;
 
         h5 {
             font-size: .8rem;

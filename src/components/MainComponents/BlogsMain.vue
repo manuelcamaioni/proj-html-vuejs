@@ -106,6 +106,10 @@ article.hero {
             .minor-info {
                 font-size: .5rem;
             }
+
+            h2 {
+                cursor: pointer;
+            }
         }
     }
 
@@ -127,7 +131,15 @@ article.hero {
         }
     }
 
+    ul.fa-ul>li {
+        margin-bottom: .8rem;
+        cursor: pointer;
+        transition: color .5s;
+    }
 
+    ul.fa-ul>li:hover {
+        color: $primaryHighlight;
+    }
 }
 
 

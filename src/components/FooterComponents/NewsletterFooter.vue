@@ -6,12 +6,14 @@
                 <div class="double-semi-circle" :style="{ top: element1.y + 'px', left: element1.x + 'px' }"> </div>
                 <div div class="dot-square" :style="{ top: element2.y + 'px', left: element2.x + 'px' }"></div>
             </div>
+
             <h2>Subscribe <span class="highlight">Newsletter</span></h2>
             <p>Enter your email address to register to our newsletter subscription delivered on a regular basis!</p>
             <div class="input-element d-flex">
-                <input type="email" placeholder="Enter your email">
+                <input type="text" placeholder="Enter your email">
                 <button class="btn">Subscribe</button>
             </div>
+
         </div>
     </section>
 </template>
@@ -19,9 +21,7 @@
 <script>
 
 export default {
-    components: {
 
-    },
     data() {
         return {
             element1: {
@@ -122,7 +122,7 @@ section.hero {
 input {
     border: none;
     border-radius: 0;
-    width: 70%;
+    width: 80%;
 }
 
 button {
@@ -130,6 +130,6 @@ button {
     border-radius: 0;
     color: white;
     font-size: .7rem;
-    width: 30%;
+    width: 20%;
 }
 </style>

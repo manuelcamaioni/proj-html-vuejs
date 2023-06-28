@@ -21,6 +21,7 @@ export default {
         CoursesMain, TutoringMain, TrailerMain, TopLearners, StatsMain, BlogsMain
     }
 }
+
 </script>
 
 <style lang="scss" scoped></style>

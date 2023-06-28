@@ -7,7 +7,7 @@
                     <ul>
                         <li>{{ addressData.address }}</li>
                         <li>{{ addressData.phone }}</li>
-                        <li>{{ addressData.email }}</li>
+                        <li><a href="#">{{ addressData.email }}</a></li>
                     </ul>
                 </div>
                 <div class="explore-container">
@@ -69,6 +69,15 @@ export default {
 
 .address-container {
     width: 50%;
+
+    a {
+        color: $secondaryTextColor;
+        transition: color .5s;
+    }
+}
+
+.address-container a:hover {
+    color: $primaryHighlight;
 }
 
 h4 {

@@ -8,7 +8,7 @@
             <div class="info-box">
 
                 <h6 class="text-uppercase">Get started <span class="highlight">effortlessly</span></h6>
-                <h2>Enjoy Our <span class="highlight">Companionship</span></h2>
+                <h2>Enjoy Our <span class="highlight fw-normal">Companionship</span></h2>
                 <p class="grey-text">Sneek peek into what has in store for you on our online teaching and mentoring portal.
                     Seek for some
                     hidden hints of early-bird rewards as well.</p>
