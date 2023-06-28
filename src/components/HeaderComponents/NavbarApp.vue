@@ -22,14 +22,16 @@
                                 <img src="../../assets/img/homepages-mega-menu-image-alt.jpg" alt="">
                             </div>
                         </div>
+
                     </li>
                 </ul>
             </div>
             <div class="my-search-container h-100 d-flex align-items-center w-25">
 
-                <div class="my-searchbar d-flex align-items-center justify-content-evenly">
+                <div class="my-searchbar d-flex align-items-center justify-content-evenly position-relative">
                     <div class="user-icon-container"><i class="fa-regular fa-user fa-sm"></i></div>
-                    <input type="text" class="w-75">
+                    <input type="text" class="w-75" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass position-absolute"></i>
                 </div>
             </div>
         </div>
@@ -40,7 +42,8 @@
 export default {
     props: {
         navData: Array
-    }
+    },
+
 }
 </script>
 
@@ -71,10 +74,32 @@ nav {
         font-size: .65rem;
         padding: .5rem;
         width: calc(100% / 6);
+        cursor: pointer;
+        transition: color .5s;
 
         span.toggle-sub-menu {
             font-size: .4rem;
         }
+    }
+
+    .my-dropdown-menu li.link-element:hover {
+        color: $primaryHighlight;
+    }
+
+
+    .my-dropdown-menu li.link-element::after {
+        content: '';
+        position: absolute;
+        top: 99%;
+        right: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: $primaryHighlight;
+        transition: all .5s;
+    }
+
+    .my-dropdown-menu li.link-element:hover::after {
+        right: 0;
     }
 
     .my-single-dropdown {
@@ -138,6 +163,28 @@ nav {
 
     .user-icon-container:hover i {
         color: $primaryHighlight;
+    }
+
+    .my-searchbar input {
+        outline: none;
+        border: none;
+        background-color: #f8f8f8;
+        border-radius: 0.375rem;
+        padding: .2rem .6rem .2rem .3rem;
+        font-size: .6rem;
+    }
+
+    .my-searchbar input:focus {
+        border: 1px solid $primaryHighlight;
+    }
+
+    input::placeholder {
+        font-size: .7rem;
+    }
+
+    .my-searchbar i {
+        right: 15px;
+        font-size: .7rem;
     }
 }
 </style>
