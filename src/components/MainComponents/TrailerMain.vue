@@ -31,9 +31,10 @@ export default {
 article.hero {
     color: $primaryColor;
 
+
     .video-container {
         width: 50%;
-        height: 300px;
+
         overflow: hidden;
         border-radius: 0.3rem;
         position: relative;
