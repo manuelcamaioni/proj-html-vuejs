@@ -50,8 +50,13 @@ export default {
 <style lang="scss" scoped>
 @use "../../styles/variables.scss" as *;
 
+.brands-list {
+    padding: 1rem 0;
+}
+
 .brands-container {
     width: calc(100% / 7 - 1rem);
+    padding: .2rem .8rem;
     height: 50px;
 
     img {
