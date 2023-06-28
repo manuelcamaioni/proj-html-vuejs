@@ -6,7 +6,7 @@
                 <h1 class="fs-3 mb-2 fw-bold">Featured Online Courses</h1>
             </hgroup>
             <div class="courses-list">
-                <ul class="w-100 d-flex flex-wrap">
+                <ul class="w-100 d-flex justify-content-between flex-wrap">
                     <li class="course  px-1 mb-3" v-for="course in courses">
                         <div class="img-box">
                             <img :src="getImagePath(course.path)" :alt="course.type">
@@ -128,6 +128,11 @@ div.courses-list {
         width: calc(100% / 2);
         display: flex;
         flex-wrap: wrap;
+        cursor: pointer;
+        transition: scale .5s ease-in;
+        padding: .6rem;
+        border-radius: 0.375rem;
+        width: 45%;
 
         .img-box {
             width: 100px;
@@ -164,6 +169,11 @@ div.courses-list {
                 font-size: .65rem;
             }
         }
+    }
+
+    li.course:hover {
+        scale: 1.05;
+        background-color: rgb(216, 216, 216);
     }
 }
 </style>
